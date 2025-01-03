@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(40, 39, 39);
+}
+#button1{
+    display: none;
+}
+#button2{
+    display: none;
+}
+#button3{
+    display: none;
+}
+#button4{
+    display: none;
+}
+#button5{
+    display: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: white;
+}
+.container9{
+    height: 600px;
+    width: 100%;
+   
+    margin-top: 100px;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    height: 40px;
+    font-size: medium;
+transition: all 0.3s ease-in-out;
+    width: 100px;
+    margin-top: 10px;
+}
+button:hover{
+    cursor: pointer;
+    transform: translatey(-5px) scale(1.1);
+box-shadow: 0px 3px 20px white;
+}
+input{
+    height: 50px;
+    background-color: whitesmoke;
+    color: black;
+    width: 250px;
+    border-radius: 10px;
+}
+input:link{
+    border: none;
+    outline: none;
+}
+input:valid{
+    border: none;
+    outline: none; 
+}
+p{
+    color: whitesmoke;
+    font-size: large;
+}
+.video{
+    display: none;
+}
+
+
+.div1{
+    background-image: url(./michels.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+   
+}
+.div2{
+    background-image: url(./Raya.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+}
+.div3{
+    background-image: url(./R.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+}
+.div4{
+    background-image: url(./loca.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.container9 div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease-in-out;
+}
+.container9 div button{
+    height: 40px;
+    width: 100px;
+    border: 5px;
+    background-color: saddlebrown;
+    color: white;
+    border: none;
+    visibility: hidden;
+    transition: all 0.4s ease-in-out;
+}
+#michels{
+    height: 500px;
+    width: 500px;
+    background-color: red;
+}
+.container9 div:hover{
+    visibility: visible;
+    transform: translateY(-5px);
+    
+}
+@media (max-width:800px){
+   .container9 div{
+    height: 100px;
+    width: 100px;
+    
+   }
+   .container9{
+    flex-direction: column;
+   }
+   .container9 div button{
+   display: none;
+   }
+   .container9 div:hover{
+    transform: translateY(-5px);
+   }
+}
+.animations{
+    display: flex;
+    flex-direction: row;
+    
+}
+.animations div{
+    height: 400px;
+
+    width: 300px;
+}
+.mechels{
+    display: none;
+}
+.raya{
+    display: none;
+}
+.pedro{
+    display: none;
+}
+.luca{
+    display: none;
+}
